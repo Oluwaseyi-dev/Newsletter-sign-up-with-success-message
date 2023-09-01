@@ -793,34 +793,24 @@ video {
   outline-style: solid;
 }
 
-.content-mobile {
-  --tw-content: url("./assets/images/illustration-sign-up-mobile.svg");
+.content-desktop {
+  --tw-content: url("../assets/images/illustration-sign-up-desktop.svg");
   content: var(--tw-content);
 }
 
-.content-desktop {
-  --tw-content: url("./assets/images/illustration-sign-up-desktop.svg");
+.content-mobile {
+  --tw-content: url("../assets/images/illustration-sign-up-mobile.svg");
   content: var(--tw-content);
 }
 
 .before\:content-list::before {
-  --tw-content: url("./assets/images/icon-list.svg");
+  --tw-content: url("../assets/images/icon-list.svg");
   content: var(--tw-content);
 }
 
 .before\:content-success::before {
-  --tw-content: url("./assets/images/icon-success.svg");
+  --tw-content: url("../assets/images/icon-success.svg");
   content: var(--tw-content);
-}
-
-.hover\:bg-gradient-to-r:hover {
-  background-image: linear-gradient(to right, var(--tw-gradient-stops));
-}
-
-.hover\:shadow-3xl:hover {
-  --tw-shadow: 0 25px 50px -12px hsla(4, 100%, 67%, 0.7);
-  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .active\:bg-gradient-to-r:active {
@@ -897,7 +887,7 @@ video {
   }
 
   .md\:content-desktop {
-    --tw-content: url("./assets/images/illustration-sign-up-desktop.svg");
+    --tw-content: url("../assets/images/illustration-sign-up-desktop.svg");
     content: var(--tw-content);
   }
 }
