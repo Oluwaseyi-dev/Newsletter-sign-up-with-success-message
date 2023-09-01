@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="/dist/output.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+</head>
+<body class="bg-darkSlateGrey min-h-screen flex align-middle">
+  <section id="process" class="bg-white font-body w-[23.438rem] m-auto  md:w-[60rem] md:flex md:flex-row-reverse md:rounded-4xl md:p-5">
+    <aside class="content-mobile md:content-desktop">
+    </aside>
+
+      <div class="min-h-[56vh] text-darkSlateGrey md:m-auto md:p-7">
+        <div class="m-7">
+          <h1 class="text-4.5xl font-bold md:text-[3.5rem]">Stay updated!</h1>
+
+          <div class="my-3">
+            <h2>Join 60,000+ product managers receiving monthly updates on:</h2>
+          <ul class="my-6">
+            <li class="flex gap-3 mb-2 before:content-list">
+              <p>Product discovery and building what matters</p>
+            </li>
+            <li class="flex gap-3 mb-2 before:content-list">
+              <p>Measuring to ensure updates are a success</p>
+            </li>
+            <li class="flex gap-3 mb-2 before:content-list">
+              <p>And much more!</p>
+            </li>
+          </ul>
+          </div>
+          <form>
+            <label for="email" class="text-xs font-bold float-left pb-2">Email address</label>
+            <label for="email" id="error" class="text-xs font-bold float-right pb-2  text-Tomato">Valid email required</label>
+            <input type="text" id="email" class=" border-solid border-2 border-Charcoal Grey p-4 w-full rounded-lg" name="email" placeholder="email@company.com">
+          </form>
+        </div>
+
+        <footer class="mx-7  bg-white">
+          <button type="submit" id="btn" class=" bg-darkSlateGrey hover:bg-gradient-to-r from-TomatoActive to-Tomato text-white p-4 rounded-lg w-full mb-7">Subscribe to monthly newsletter </button>
+        </footer>
+      </div>
+      <!-- Sign-up form end -->
+
+      <!-- Success message start -->
+
+      <!-- Success message end -->
+
+  </section>
+
+  <section id="success" class="bg-white font-body w-[23.438rem] md:w-[30rem] m-auto md:rounded-4xl" >
+    <div class="pt-32 before:content-success h-[90vh] mx-7 md:m-12   text-darkSlateGrey md:p-0 md:h-fit">
+      <h3 class="text-4.5xl font-bold leading-10 my-7 md:m-0 md:my-5 md:text-[3.5rem] md:leading-[3.4rem]">Thanks for subscribing!</h3>
+      <p>
+        A confirmation email has been sent to <span id="confirmEmail" class="font-bold"></span>. Please open it and click the button inside to confirm your subscription.
+      </p>
+    </div>
+    <footer class="mx-12 bg-white">
+      <button type="submit" id="btn2" class="bg-darkSlateGrey hover:bg-gradient-to-r from-TomatoActive to-Tomato hover:shadow-3xl text-white p-4 rounded-lg w-full mb-12">Dismiss message </button>
+    </footer>
+  </section>
+
+  <script src="app.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"> </script>
+</body>
+</html>
