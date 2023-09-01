@@ -15,7 +15,7 @@ module.exports = {
         '4.5xl': '2.5rem'
       },
       content: {
-        // 'desktop': 'url("/assets/images/illustration-sign-up-desktop.svg")',
+        'desktop': 'url("/assets/images/illustration-sign-up-desktop.svg")',
         'mobile': 'url("/assets/images/illustration-sign-up-mobile.svg")',
         'list': 'url("/assets/images/icon-list.svg")',
         'success': 'url("/assets/images/icon-success.svg")'
