@@ -789,11 +789,6 @@ video {
   outline-style: solid;
 }
 
-.content-desktop {
-  --tw-content: url("/assets/images/illustration-sign-up-desktop.svg");
-  content: var(--tw-content);
-}
-
 .content-mobile {
   --tw-content: url("/assets/images/illustration-sign-up-mobile.svg");
   content: var(--tw-content);
@@ -882,8 +877,8 @@ video {
     line-height: 3.4rem;
   }
 
-  .md\:content-desktop {
-    --tw-content: url("/assets/images/illustration-sign-up-desktop.svg");
+  .md\:content-\[url\(\'\/assets\/images\/illustration-sign-up-desktop\.svg\'\)\] {
+    --tw-content: url('/assets/images/illustration-sign-up-desktop.svg');
     content: var(--tw-content);
   }
 }
