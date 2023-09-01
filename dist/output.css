@@ -790,22 +790,22 @@ video {
 }
 
 .content-desktop {
-  --tw-content: url("/newsletter-sign-up-with-success-message/assets/images/illustration-sign-up-desktop.svg");
+  --tw-content: url("./assets/images/illustration-sign-up-desktop.svg");
   content: var(--tw-content);
 }
 
 .content-mobile {
-  --tw-content: url("/newsletter-sign-up-with-success-message/assets/images/illustration-sign-up-mobile.svg");
+  --tw-content: url("./assets/images/illustration-sign-up-mobile.svg");
   content: var(--tw-content);
 }
 
 .before\:content-list::before {
-  --tw-content: url("/newsletter-sign-up-with-success-message/assets/images/icon-list.svg");
+  --tw-content: url("./assets/images/icon-list.svg");
   content: var(--tw-content);
 }
 
 .before\:content-success::before {
-  --tw-content: url("/newsletter-sign-up-with-success-message/assets/images/icon-success.svg");
+  --tw-content: url("./assets/images/icon-success.svg");
   content: var(--tw-content);
 }
 
@@ -883,7 +883,7 @@ video {
   }
 
   .md\:content-desktop {
-    --tw-content: url("/newsletter-sign-up-with-success-message/assets/images/illustration-sign-up-desktop.svg");
+    --tw-content: url("./assets/images/illustration-sign-up-desktop.svg");
     content: var(--tw-content);
   }
 }
