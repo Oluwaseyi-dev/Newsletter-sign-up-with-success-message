@@ -789,13 +789,13 @@ video {
   outline-style: solid;
 }
 
-.content-desktop {
-  --tw-content: url("/assets/images/illustration-sign-up-desktop.svg");
+.content-mobile {
+  --tw-content: url("/assets/images/illustration-sign-up-mobile.svg");
   content: var(--tw-content);
 }
 
-.content-mobile {
-  --tw-content: url("/assets/images/illustration-sign-up-mobile.svg");
+.content-desktop {
+  --tw-content: url("/assets/images/illustration-sign-up-desktop.svg");
   content: var(--tw-content);
 }
 
