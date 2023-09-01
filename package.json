@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx postcss-cli@latest ./style.css -o ./dist/output.css --verbose" 
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./style.css -o ./dist/output.css --watch"
   },
   "keywords": [],
   "author": "",
