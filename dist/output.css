@@ -534,32 +534,12 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.visible {
-  visibility: visible;
-}
-
-.collapse {
-  visibility: collapse;
-}
-
-.relative {
-  position: relative;
-}
-
 .float-right {
   float: right;
 }
 
 .float-left {
   float: left;
-}
-
-.m-0 {
-  margin: 0px;
-}
-
-.m-12 {
-  margin: 3rem;
 }
 
 .m-7 {
@@ -583,11 +563,6 @@ video {
 .my-3 {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
-}
-
-.my-5 {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
 }
 
 .my-6 {
@@ -620,25 +595,8 @@ video {
   display: flex;
 }
 
-.table {
-  display: table;
-}
-
-.contents {
-  display: contents;
-}
-
-.hidden {
-  display: none;
-}
-
 .h-\[90vh\] {
   height: 90vh;
-}
-
-.h-fit {
-  height: -moz-fit-content;
-  height: fit-content;
 }
 
 .min-h-\[56vh\] {
@@ -657,36 +615,12 @@ video {
   width: 100%;
 }
 
-.border-collapse {
-  border-collapse: collapse;
-}
-
-.transform {
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.resize {
-  resize: both;
-}
-
-.flex-row-reverse {
-  flex-direction: row-reverse;
-}
-
 .gap-3 {
   gap: 0.75rem;
 }
 
-.rounded-4xl {
-  border-radius: 2rem;
-}
-
 .rounded-lg {
   border-radius: 0.5rem;
-}
-
-.border {
-  border-width: 1px;
 }
 
 .border-2 {
@@ -707,10 +641,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-gradient-to-r {
-  background-image: linear-gradient(to right, var(--tw-gradient-stops));
-}
-
 .from-TomatoActive {
   --tw-gradient-from: hsl(346, 100%, 66%) var(--tw-gradient-from-position);
   --tw-gradient-to: hsl(346 100% 66% / 0) var(--tw-gradient-to-position);
@@ -721,20 +651,8 @@ video {
   --tw-gradient-to: hsl(4, 100%, 67%) var(--tw-gradient-to-position);
 }
 
-.p-0 {
-  padding: 0px;
-}
-
 .p-4 {
   padding: 1rem;
-}
-
-.p-5 {
-  padding: 1.25rem;
-}
-
-.p-7 {
-  padding: 1.75rem;
 }
 
 .pb-2 {
@@ -783,19 +701,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.underline {
-  text-decoration-line: underline;
-}
-
-.outline {
-  outline-style: solid;
-}
-
-.content-desktop {
-  --tw-content: url("./assets/images/illustration-sign-up-desktop.svg");
-  content: var(--tw-content);
 }
 
 .content-mobile {
