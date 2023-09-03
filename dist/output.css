@@ -704,17 +704,17 @@ video {
 }
 
 .content-mobile {
-  --tw-content: url('/assets/images/illustration-sign-up-mobile.svg');
+  --tw-content: url('https://github.com/Oluwaseyi-dev/Newsletter-sign-up-with-success-message/tree/main/assets/images/illustration-sign-up-mobile.svg');
   content: var(--tw-content);
 }
 
 .before\:content-list::before {
-  --tw-content: url('/assets/images/icon-list.svg');
+  --tw-content: url('https://github.com/Oluwaseyi-dev/Newsletter-sign-up-with-success-message/tree/main/assets/images/icon-list.svg');
   content: var(--tw-content);
 }
 
 .before\:content-success::before {
-  --tw-content: url('/assets/images/icon-success.svg');
+  --tw-content: url('https://github.com/Oluwaseyi-dev/Newsletter-sign-up-with-success-message/tree/main/assets/images/icon-success.svg');
   content: var(--tw-content);
 }
 
@@ -789,10 +789,5 @@ video {
 
   .md\:leading-\[3\.4rem\] {
     line-height: 3.4rem;
-  }
-
-  .md\:content-desktop {
-    --tw-content: url('/assets/images/illustration-sign-up-desktop.svg');
-    content: var(--tw-content);
   }
 }
