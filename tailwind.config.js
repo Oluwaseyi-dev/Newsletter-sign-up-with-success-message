@@ -15,10 +15,10 @@ module.exports = {
         '4.5xl': '2.5rem'
       },
       content: {
-        'desktop': "url(https://github.com/Oluwaseyi-dev/Newsletter-sign-up-with-success-message/tree/main/assets/images/illustration-sign-up-desktop.svg')",
-        'mobile': "url('https://github.com/Oluwaseyi-dev/Newsletter-sign-up-with-success-message/tree/main/assets/images/illustration-sign-up-mobile.svg')",
-        'list': "url('https://github.com/Oluwaseyi-dev/Newsletter-sign-up-with-success-message/tree/main/assets/images/icon-list.svg')",
-        'success': "url('https://github.com/Oluwaseyi-dev/Newsletter-sign-up-with-success-message/tree/main/assets/images/icon-success.svg')",
+        'desktop': "url('./assets/images/illustration-sign-up-desktop.svg')",
+        'mobile': "url('./assets/images/illustration-sign-up-mobile.svg')",
+        'list': "url('./assets/images/icon-list.svg')",
+        'success': "url('./assets/images/icon-success.svg')",
       },
       boxShadow: {
         '3xl': '0 25px 50px -12px hsla(4, 100%, 67%, 0.7)'
