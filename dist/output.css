@@ -703,21 +703,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.content-mobile {
-  --tw-content: url('./assets/images/illustration-sign-up-mobile.svg');
-  content: var(--tw-content);
-}
-
-.before\:content-list::before {
-  --tw-content: url('./assets/images/icon-list.svg');
-  content: var(--tw-content);
-}
-
-.before\:content-success::before {
-  --tw-content: url('./assets/images/icon-success.svg');
-  content: var(--tw-content);
-}
-
 .active\:bg-gradient-to-r:active {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -789,10 +774,5 @@ video {
 
   .md\:leading-\[3\.4rem\] {
     line-height: 3.4rem;
-  }
-
-  .md\:content-desktop {
-    --tw-content: url('./assets/images/illustration-sign-up-desktop.svg');
-    content: var(--tw-content);
   }
 }

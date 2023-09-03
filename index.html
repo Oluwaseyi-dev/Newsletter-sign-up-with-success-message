@@ -14,8 +14,10 @@
 </head>
 <body class="bg-darkSlateGrey min-h-screen flex align-middle">
   <section id="process" class="bg-white font-body w-[23.438rem] m-auto  md:w-[60rem] md:flex md:flex-row-reverse md:rounded-4xl md:p-5">
-    <aside class="content-mobile md:content-desktop">
-    </aside>
+    <picture>
+      <source media="(min-width: 768px)" srcset="./assets/images/illustration-sign-up-desktop.svg">
+      <img src="./assets/images/illustration-sign-up-mobile.svg" alt="" srcset="">
+    </picture>
 
       <div class="min-h-[56vh] text-darkSlateGrey md:m-auto md:p-7">
         <div class="m-7">
@@ -24,13 +26,16 @@
           <div class="my-3">
             <h2>Join 60,000+ product managers receiving monthly updates on:</h2>
           <ul class="my-6">
-            <li class="flex gap-3 mb-2 before:content-list">
+            <li class="flex gap-3 mb-2">
+              <img src="./assets/images/icon-list.svg" alt="" srcset="">
               <p>Product discovery and building what matters</p>
             </li>
-            <li class="flex gap-3 mb-2 before:content-list">
+            <li class="flex gap-3 mb-2">
+              <img src="./assets/images/icon-list.svg" alt="" srcset="">
               <p>Measuring to ensure updates are a success</p>
             </li>
-            <li class="flex gap-3 mb-2 before:content-list">
+            <li class="flex gap-3 mb-2">
+              <img src="./assets/images/icon-list.svg" alt="" srcset="">
               <p>And much more!</p>
             </li>
           </ul>
@@ -55,7 +60,8 @@
   </section>
 
   <section id="success" class="bg-white font-body w-[23.438rem] md:w-[30rem] m-auto md:rounded-4xl" >
-    <div class="pt-32 before:content-success h-[90vh] mx-7 md:m-12   text-darkSlateGrey md:p-0 md:h-fit">
+    <div class="pt-32 h-[90vh] mx-7 md:m-12   text-darkSlateGrey md:p-0 md:h-fit">
+      <img src="./assets/images/icon-success.svg" alt="" srcset="">
       <h3 class="text-4.5xl font-bold leading-10 my-7 md:m-0 md:my-5 md:text-[3.5rem] md:leading-[3.4rem]">Thanks for subscribing!</h3>
       <p>
         A confirmation email has been sent to <span id="confirmEmail" class="font-bold"></span>. Please open it and click the button inside to confirm your subscription.
